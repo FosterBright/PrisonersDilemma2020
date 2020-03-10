@@ -30,4 +30,5 @@ def move(my_history, their_history, my_score, their_score):
      return 'c'
   elif my_score == their_score:
    return random.choice(['c','b'])
-      
+  else
+   return 'b'
